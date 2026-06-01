@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "spellbookmod",
+	"version": "1.0.0",
+	"name": "SpellBookMod",
+	"description": "A 6-page interactive power book inspired by the Book O' Knowledge plugin from Wisp SMP.",
+	"authors": [
+		"Repo"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.repo.spellbook.SpellBookMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
